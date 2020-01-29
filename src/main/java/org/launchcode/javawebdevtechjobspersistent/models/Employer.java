@@ -9,6 +9,8 @@ public class Employer extends AbstractEntity {
     @NotBlank
     private String location;
 
+    public Employer(){
+    }
     public String getLocation() {
         return location;
     }
@@ -18,6 +20,5 @@ public class Employer extends AbstractEntity {
 
     }
 
-    public Employer(){
-    }
+
 }
