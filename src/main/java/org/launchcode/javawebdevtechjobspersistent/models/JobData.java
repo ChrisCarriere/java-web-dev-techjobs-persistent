@@ -75,7 +75,7 @@ public class JobData {
                 results.add(job);
             } else if (job.getEmployer().toString().toLowerCase().contains(value.toLowerCase())) {
                 results.add(job);
-            } else if (job.getSkills().toString().contains(value.toLowerCase())) {
+            } else if (job.getSkills().toString().toLowerCase().contains(value.toLowerCase())) {
                 results.add(job);
             } else if (job.toString().toLowerCase().contains(value.toLowerCase())) {
                 results.add(job);
